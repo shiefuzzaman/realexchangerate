@@ -27,12 +27,11 @@ angular.module('starter', ['ionic'])
         var baseUrl="http://openexchangerates.org/api/";
 
         $scope.url=baseUrl+"latest.json?app_id="+apiKey;
+
         $ionicLoading.show();
         $http.get($scope.url)
             .success(function(response){
                 $scope.result=response;
-                fx.rates = response.rates;
-                fx.base = response.base;
             })
             .error(function(response,status){
                 $scope.showAlert('Error!!!',response.message);
