@@ -1,7 +1,7 @@
 realexchangerate
 ================
 
-A simple hybrid application built with **[Ionic Framework](http://ionicframework.com/ "ionic framework")** to get *Real Time Exchange Rate* with 
+A simple hybrid application built with **[Ionic Framework](http://ionicframework.com/ "ionic framework")** and **[Open Exchange Rates API](https://openexchangerates.org/ "https://openexchangerates.org/")** to get *Real Time Exchange Rate* with 
 *historical* exchange rate support.
 
 Only the necessery files are included [index.html, app.js, money.js], please replace them after creating the blank application using **[Ionic Framework](http://ionicframework.com/ "ionic framework")**. money.js is maintained by **Open Exchange Rates**  [http://josscrowcroft.github.io/money.js/](http://josscrowcroft.github.io/money.js/ "money.js")
